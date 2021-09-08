@@ -1,3 +1,9 @@
+# Ignore directory at all levels, even if the directory is nested under other directories
+My Dir/Sub-dir/
+# Ignore the directory only if it exists at the root of your repository
+/My Dir/Sub-dir/
+# Ignore the sub-directory, no matter where it appears within your repository
+Sub-dir/
 # OS generated files #
 ######################
 .DS_Store
